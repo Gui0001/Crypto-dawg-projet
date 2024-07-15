@@ -1,0 +1,129 @@
+@font-face {
+    font-family: billabong;
+    src: url('assets/fonts/FontsFree-Net-Billabong.ttf');
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(rgb(255, 166, 0), rgb(255, 136, 0));
+    background-repeat: no-repeat;
+    background-size:contain;
+    overflow-x: hidden;
+}
+
+.wrapper {
+    height: 100vh;
+    display: grid;
+    grid-template-columns:18em 1fr;
+}
+
+.logo-corner {
+    display: flex;
+    justify-content: space-between;
+}
+
+p {
+    margin-bottom: 0.5rem;
+}
+
+.logo {
+    margin: 2rem auto;
+    font-family: billabong;
+}
+
+.logo img {
+    width: 9rem;
+    margin-left: 4.5rem;
+}
+
+.logo h1 {
+    font-size: 4.5rem;
+    font-weight: normal;
+    margin: -1rem 0 1rem 0;
+}
+
+nav {
+    margin-top: 5rem;
+    margin-right: 2rem;
+}
+
+nav a {
+    margin-left: 0.5rem;
+    text-decoration: none;
+    font-size: 2rem;
+    color: black;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.container {
+    margin-top: 2.5rem;
+    min-height: 20rem;
+    padding: 20px;
+    margin: auto;
+    display: flex;
+}
+
+.card {
+    text-align: center;
+    height: 20em;
+    border-radius: 16px;
+    padding: 16px;
+    margin: 0 1rem;
+    background-color: white;
+}
+
+.card img {
+    width: 6rem;
+}
+
+.card input {
+    width: 10rem;
+    height: 1.5rem;
+    border-radius: 16px;
+    border: solid 1px gray;
+    padding-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+select {
+    padding-left: 0.2rem;
+    height: 1.5rem;
+    min-width: 6rem;
+    border-radius: 16px;
+    margin-top: 1rem;
+}
+
+.btn {
+    margin: 1rem auto;
+    padding: 10px;
+    width: 6rem;
+    border-radius: 20px;
+    background-color: brown;
+    color: white;cursor: pointer;
+}
+
+footer {
+    height: 8vh;
+}
+
+.result {
+    filter: drop-shadow(0px 4px 5px rgb(129, 129, 129));
+    margin-top: 0.5rem;
+    width: 100%;
+    height: 3rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
